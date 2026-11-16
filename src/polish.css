@@ -1,0 +1,51 @@
+/* Shared readability and keyboard/touch affordances; visual review remains manual. */
+:focus-visible{outline:2px solid #72ead0!important;outline-offset:3px!important}
+button,select,input{touch-action:manipulation}
+button:disabled,input:disabled{cursor:not-allowed;opacity:.58}
+.eyebrow,.control-caption{font-size:10px;color:#a0afbf}
+.hero>p,.page-heading>p,.world-heading p{font-size:14px;color:#a7b4c2;line-height:1.7}
+.caption,.science-note{font-size:12px;color:#9aa9b9;line-height:1.65}
+.metric-card>span{font-size:10px;color:#a2b0bf}
+.metric-card>small{font-size:11px;color:#9aa9b9}
+.unit-chip{font-size:9px;color:#b4c1ce}
+.control{font-size:11px;color:#aab7c5;letter-spacing:.055em}
+.control select,.control input[type=number],.world-search-row input,.date-actions input{font-size:13px}
+.check-control{font-size:12px}
+.chart-title{font-size:12px;color:#aab8c6}
+.legend{font-size:11px;color:#b3bfcc;gap:12px}
+.legend i.legend-dashed{height:2px;background:repeating-linear-gradient(90deg,var(--series-color) 0 5px,transparent 5px 8px)}
+.axis-label{font-size:11px;fill:#a2b0bf}
+.split-label,.scenario-marker-label{font-size:9px;fill:#c4d0dc}
+.notice{font-size:12px;line-height:1.65;color:#e0d4bd}
+.strong-notice{font-size:12px}
+th{font-size:10px;color:#a6b3c0}
+td{font-size:11px}
+.nav-item,.primary-button,.secondary-button,.tab-button,.world-mode-tabs button{min-height:42px}
+.map-zoom button{width:40px;height:40px}
+.world-legend{font-size:11px}
+.legend-ramp-label{font-size:11px;color:#c0ccd7}
+.legend-ramp>div{font-size:10px;color:#aab7c5}
+.legend-ramp small{font-size:9px;color:#a0adba}
+.legend-status{font-size:10px;color:#a7b4c2}
+.world-country-source,.world-missing-note,.world-notes-content{font-size:11px;color:#a8b5c3}
+.world-country-stats span{font-size:9px;color:#a0adba}
+.city-destination-row{min-height:46px}
+.city-destination-row>label:first-child{font-size:11px}
+.city-destination-row small{font-size:9px;color:#9aa8b6}
+.city-weight{font-size:9px;color:#a4b1bf}
+.city-weight input{min-height:38px;font-size:12px}
+.city-map-legend{font-size:10px;color:#c0cbd6}
+.city-ab-note{border-left:2px solid #8ca5ff;padding-left:10px}
+.status-pill{font-size:9px}
+@media(max-width:760px){
+  .hero>p,.page-heading>p,.world-heading p{font-size:13px}
+  .caption,.science-note{font-size:11px}
+  .metric-card>span{font-size:9px}
+  .metric-card>small{font-size:10px}
+  .nav-item,.primary-button,.secondary-button,.tab-button,.world-mode-tabs button{min-height:42px}
+  .world-country-stats span{font-size:9px}
+  .legend{justify-content:flex-start}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+.check-control input[type=checkbox],.world-metric input[type=radio],.city-destination-row input[type=checkbox]{width:18px;height:18px;flex:none}
+.city-controls-panel .control input[type=range],.world-metric input[type=radio]{accent-color:#52dfc0}

@@ -1,0 +1,19 @@
+.secondary-button {
+  border: 1px solid #34485e;
+  border-radius: 6px;
+  background: #122032;
+  color: #dce6f0;
+  padding: 9px 12px;
+  cursor: pointer;
+  font: 10px 'DM Sans';
+}
+.secondary-button:hover { border-color: var(--mint); color: #b1f1e1; }
+.big-result {
+  margin: 13px 0;
+  color: var(--mint);
+  font: 700 25px Manrope;
+  font-variant-numeric: tabular-nums;
+}
+.big-result small { color: #8fa0b3; font: 10px 'DM Sans'; }
+.accumulation-panel .chart-wrap { margin-top: 15px; }
+.accumulation-panel .control { margin-top: 12px; }

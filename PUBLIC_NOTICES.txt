@@ -1,0 +1,7 @@
+OUTBREAK LAB Web Edition — avisos de atribución
+
+Datos históricos COVID-19: COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University. Licencia CC BY 4.0. Fuente: https://github.com/CSSEGISandData/COVID-19
+
+Límites cartográficos: Natural Earth. Los datos disponibles en el sitio de Natural Earth se ofrecen en dominio público. Fuente: https://www.naturalearthdata.com/about/terms-of-use/
+
+Los datos resumidos, modelos y escenarios de OUTBREAK LAB conservan las atribuciones y advertencias mostradas en la aplicación.
